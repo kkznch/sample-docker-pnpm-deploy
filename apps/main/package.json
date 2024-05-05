@@ -1,0 +1,13 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "say": "node index.js"
+  },
+  "dependencies": {
+    "bar": "workspace:^",
+    "foo": "workspace:^"
+  }
+}

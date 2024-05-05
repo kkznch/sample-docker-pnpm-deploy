@@ -8,10 +8,15 @@ importers:
 
   .: {}
 
-  packages/app-a:
+  apps/main:
     dependencies:
-      app-b:
+      bar:
         specifier: workspace:^
-        version: link:../app-b
+        version: link:../../packages/bar
+      foo:
+        specifier: workspace:^
+        version: link:../../packages/foo
 
-  packages/app-b: {}
+  packages/bar: {}
+
+  packages/foo: {}
