@@ -1,5 +1,4 @@
 {
   "name": "sample-pnpm-deploy",
-  "version": "1.0.0",
-  "packageManager": "pnpm@8.7.0"
+  "version": "1.0.0"
 }

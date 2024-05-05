@@ -1,4 +1,4 @@
-FROM node:18.20.2-slim
+FROM node:20-slim
 
 RUN corepack enable
 COPY . /usr/src/app
